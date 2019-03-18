@@ -36,7 +36,6 @@ public class MainActivity extends Activity {
 
         btnLoad.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
-                //Recuperamos las preferencias
                 SharedPreferences prefs =
                         getSharedPreferences("MyPreferences", Context.MODE_PRIVATE);
 
